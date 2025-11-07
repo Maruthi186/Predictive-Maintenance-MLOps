@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Data Files ---
+# We link to these in the README.
+# They do not belong in a code repository.
+*.csv
+*.txt
+
+# --- NASA Data Folder ---
+# This 'CMaps' folder was from the zip file
+CMaps/
+
+# --- MLflow State ---
+# These are generated outputs, not source code
+mlruns/
+mlflow.db
+*.sqlite
+
+# --- Saved Models ---
+# We load from MLflow, so we don't need these
+*.joblib
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
