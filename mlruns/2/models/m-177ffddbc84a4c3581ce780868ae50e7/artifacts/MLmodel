@@ -1,0 +1,23 @@
+artifact_path: file:C:/B.Tech - SNIST/My Learning/My Projects/Predictive Maintenance
+  using Sensor Data/mlruns/2/models/m-177ffddbc84a4c3581ce780868ae50e7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.1
+model_id: m-177ffddbc84a4c3581ce780868ae50e7
+model_size_bytes: 3353090
+model_uuid: m-177ffddbc84a4c3581ce780868ae50e7
+prompts: null
+run_id: 71c34389faa64200976765634c4d075e
+utc_time_created: '2025-11-07 12:25:43.800533'

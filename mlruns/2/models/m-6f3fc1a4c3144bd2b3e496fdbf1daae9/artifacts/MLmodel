@@ -1,0 +1,23 @@
+artifact_path: file:C:/B.Tech - SNIST/My Learning/My Projects/Predictive Maintenance
+  using Sensor Data/mlruns/2/models/m-6f3fc1a4c3144bd2b3e496fdbf1daae9/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.12.9
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.5.1
+model_id: m-6f3fc1a4c3144bd2b3e496fdbf1daae9
+model_size_bytes: 284144
+model_uuid: m-6f3fc1a4c3144bd2b3e496fdbf1daae9
+prompts: null
+run_id: 1ce9fbd3a8094047884d22ebfa6cb0ce
+utc_time_created: '2025-11-07 12:26:08.565248'
